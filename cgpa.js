@@ -59,5 +59,6 @@ while(sope==true){
         var gpa = (sum_gotten_point / sum_point) * 5;
 
     }
+    alert(name);
     alert("Your CGPA is: " + gpa);
 }
