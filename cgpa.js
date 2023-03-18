@@ -18,8 +18,8 @@ while(sope==true){
     var sum_gotten_point = 0;
     var sum_point = 0;
     for (i = 1 ; i<=no_courses ; i++){
-        var score = Number(prompt("Enter the score of the courses: "));
-        var unit = Number(prompt("Enter the unit of the courses: "));
+        var score = Number(prompt("Enter the score of the courses"+[i] +" :"));
+        var unit = Number(prompt("Enter the unit of the courses"+[i] +" :"));
 
         if (score >= 70 && score <= 100){
             var grade = "A";
