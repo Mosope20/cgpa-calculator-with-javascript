@@ -1,5 +1,5 @@
 var sope = true;
-
+//using while loop to make the program run endlessly
 while(sope==true){
     alert("Do you wish to calculate your cgpa: ")
     var ans = prompt("if yes, press y, if no, press x' (y/n): ")
